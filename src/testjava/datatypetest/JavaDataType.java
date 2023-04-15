@@ -67,7 +67,7 @@ public class JavaDataType {
 		System.out.println("Double : "+d);
 		d = 1.23456789987654321987654321;
 		System.out.println("Double : "+d);
-		d = 1234567.23456789987654321987654321;
+		d = 1234567.23456719927654321987654321;
 		System.out.println("Double : "+d);
 		
 		boo = true;
@@ -83,5 +83,12 @@ public class JavaDataType {
 		else {
 			System.out.println("Value of Boolean variable : "+boo);
 		}
+		
+		char ch = 'A';
+		String str = "A";
+		System.out.println(ch);
+		System.out.println(str);
+		
 	}
 }
+

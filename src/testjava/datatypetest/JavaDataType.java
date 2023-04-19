@@ -3,6 +3,7 @@ package testjava.datatypetest;
 public class JavaDataType {
 
 	public static void main(String[] args) {
+		// Variable Declaration
 		byte b;
 		short s;
 		int i;
@@ -10,6 +11,10 @@ public class JavaDataType {
 		float f;
 		double d;
 		boolean boo;
+		
+		String bankNameString = "Axis";
+		
+		byte p;
 		
 
 		/*
@@ -85,9 +90,20 @@ public class JavaDataType {
 		}
 		
 		char ch = 'A';
+		
 		String str = "A";
 		System.out.println(ch);
 		System.out.println(str);
+		
+		int mult;
+		
+		mult = 2147483647 * 2147483647;
+		
+		System.out.println(mult);
+		
+		
+		char ch1 = 94;
+		System.out.println(ch1);
 		
 	}
 }

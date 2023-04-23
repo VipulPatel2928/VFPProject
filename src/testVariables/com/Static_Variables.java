@@ -1,9 +1,6 @@
-package test.com;
+package testVariables.com;
 
-import testVariables.com.Static_Variables;
-
-public class Test {
-	
+public class Static_Variables {
 	// salary  variable is a private static variable
 	   private static double salary =100;
 
@@ -14,12 +11,12 @@ public class Test {
 	   
 	   public int nostatic = 10;
 	   
-	   public Test(int sal) {
+	   public Static_Variables(int sal) {
 		   salary = sal;
 		 //  BONUS = 1500; //Remove the comment to see the compiler error
 	   }
 	   
-	   public Test() {
+	   public Static_Variables() {
 		   System.out.println("Zero Argument/Default Constructor Called");
 	   }
 	   
@@ -30,14 +27,12 @@ public class Test {
 	   }
 	
 	public static void main(String[] args) {
-		  Test.salary = 1000;
+		  Static_Variables.salary = 1000;
 		  //Static_Variables.nostatic;  //Remove the comment to see that non static variable can't be access by CLASS NAME
 	      System.out.println(DEPARTMENT + "average salary:" + salary);
-	      Test obj1 = new Test(120000);
+	      Static_Variables obj1 = new Static_Variables(120000);
 	      obj1.display();
-	      Test obj2 = new Test();
-	      Test.salary = 1;
+	      Static_Variables obj2 = new Static_Variables();
 	      obj2.display();
-	      obj1.display();
 	}
 }

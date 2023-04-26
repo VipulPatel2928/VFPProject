@@ -1,11 +1,12 @@
-package testjava.string;
+package teststring.com;
 
-public class StringBuilderClass {
+public class StringBufferClass {
 
 	public static void main(String[] args) {
 
 		String str = "Hello ";
-		StringBuilder sb = new StringBuilder(str);
+		StringBuffer sb = new StringBuffer(str);
+		StringBuffer sb1 = new StringBuffer(str);
 		sb.append("Java");
 		System.out.println(sb);
 
@@ -25,15 +26,20 @@ public class StringBuilderClass {
 		sb.reverse();
 		System.out.println(sb);
 		
-		// Write the code to Reverse the number and there is no conditions
-		
-		double price = 123456.99d;
+		int price = 123456;
 		
 		System.out.println("Value of number before applying Reverse Operation: "+price);
 		
 		StringBuffer objnoBuffer = new StringBuffer(String.valueOf(price));
 		
 		System.out.println("Value of number after applying Reverse Operation: "+objnoBuffer.reverse());
+		
+		if(sb.equals(sb1)) {
+			System.out.println("Both String Buffer objects are equal");
+		}
+		else {
+			System.out.println("Both String Buffer objects are not equal");
+		}
 
 	}
 }

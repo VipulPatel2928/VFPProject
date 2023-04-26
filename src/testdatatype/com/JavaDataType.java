@@ -1,4 +1,4 @@
-package testjava.datatypetest;
+package testdatatype.com;
 
 public class JavaDataType {
 

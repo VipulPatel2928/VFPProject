@@ -1,4 +1,4 @@
-package testjava.string;
+package teststring.com;
 
 public class ConcatTest_StringBuffer_StringBuilder {
 

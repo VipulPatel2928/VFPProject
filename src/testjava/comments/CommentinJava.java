@@ -37,6 +37,9 @@ public class CommentinJava {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		
+		// How to use sysout for System.out.println()
+		// Type sysout and press ctrl + Space and select the sysout
 
 		CommentinJava obJava = new CommentinJava();
 		int test1, test2, test3;

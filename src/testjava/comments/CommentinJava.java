@@ -56,13 +56,13 @@ public class CommentinJava {
 		}
 
 		// For Format the program we can select the code first that need to be formatted
-		// Bofre that select the all and use ctrl + a and use sort cut ctrl + shift + f
+		// Before that select the all and use ctrl + a and use sort cut ctrl + shift + f
 
 		// sysout + ctrl + space for System.out.println
 
 		// Sort cut for going to the function ctrl + o
 		// It will give you the list of the function and click on any function that you
-		// want to code
+		// want to code or Search for the function you want to use
 		// and editor will take you to the function
 
 		obJava.fun1(10, 10);

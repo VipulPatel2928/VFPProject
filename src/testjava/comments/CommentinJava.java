@@ -1,5 +1,4 @@
 package testjava.comments;
-
 /**
  * @author Class is created by VP, 14 - April - 2023
  *

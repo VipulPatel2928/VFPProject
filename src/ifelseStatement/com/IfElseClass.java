@@ -33,8 +33,5 @@ public class IfElseClass {
 			System.out.println("Student obtained First class");
 		}
 
-		
-
 	}
-
 }

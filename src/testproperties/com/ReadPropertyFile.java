@@ -29,7 +29,7 @@ public class ReadPropertyFile {
 	public static void main(String[] args) {
 		
 		String url =readPropertyFile("Java/test.properties", "url");
-		String username =readPropertyFile("Java/test.properties", "usernam");
+		String username =readPropertyFile("Java/test.properties", "username");
 		String password =readPropertyFile("Java/test.properties", "password");
 		
 		

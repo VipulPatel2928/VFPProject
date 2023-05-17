@@ -2,9 +2,13 @@ package fortest.com;
 
 import java.util.Iterator;
 
+import teststaticmethod.com.StaticMethodClass;
+
 public class ForClass {
 
 	public static void main(String[] args) {
+		
+		StaticMethodClass.display();
 		
 		for (int i = 1; i < 11; i++) {
 			System.out.println("Value of i :"+i);

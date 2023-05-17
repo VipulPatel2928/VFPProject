@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.lang.reflect.Field;
 
 public class CreateFileClass {
-	public static void createfile(String filename) throws IOException {
+	public static void createFile(String filename) throws IOException {
 		File file = new File("Java/"+filename);
 		if(file.createNewFile()) {
 			System.out.println("File is successfully created");
@@ -16,6 +16,6 @@ public class CreateFileClass {
 	}
 
 	public static void main(String[] args) throws IOException {
-		CreateFileClass.createfile("test.properties");
+		CreateFileClass.createFile("test.properties");
 	}
 }

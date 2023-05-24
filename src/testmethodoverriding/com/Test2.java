@@ -13,14 +13,14 @@ public class Test2 extends Test1{
 	public static void main(String[] args) {
 		Test2 test2 = new Test2();
 		test2.test1Method();
-		Test2.staticMethod();
+		test2.staticMethod();
 		
 		Test1 test1 = new Test1();
 		test1.test1Method();
-		Test1.staticMethod();
+		test1.staticMethod();
 		
 		Test1 test12 = new Test2();
 		test12.test1Method();
-		Test1.staticMethod();
+		test12.staticMethod();
 	}
 }

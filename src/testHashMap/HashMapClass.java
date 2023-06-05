@@ -2,6 +2,7 @@ package testHashMap;
 
 import java.util.HashMap;
 import java.util.Hashtable;
+import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
@@ -11,7 +12,9 @@ public class HashMapClass {
 		
 		System.out.println("=======Hash MAP===============");
 		HashMap<Integer, String> mapHash = new HashMap<Integer, String>();// Creating HashMap
-
+		
+	
+	
 		mapHash.put(1, "Mango"); // Put elements in Map
 		mapHash.put(2, "Apple");
 		mapHash.put(3, "Banana");
